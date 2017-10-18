@@ -1,0 +1,2 @@
+# zookeeper_spray_ConfigCentre
+使用zk和spray构建ebay配置中心，自己的一些基础代码记录
