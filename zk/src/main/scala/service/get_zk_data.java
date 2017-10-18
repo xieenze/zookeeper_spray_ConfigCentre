@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class get_zk_data {
     public String getdata(String path) throws IOException, KeeperException, InterruptedException {
-        String connectionString = "10.64.217.195:2181";
+        String connectionString = "10.64.21x.xxx:2181";
         int sessionTimeout = 30000;
         // 创建一个与服务器的连接
         ZooKeeper zk = new ZooKeeper(connectionString,sessionTimeout,null);
